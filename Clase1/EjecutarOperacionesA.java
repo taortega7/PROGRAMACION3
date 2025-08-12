@@ -11,6 +11,6 @@ public class EjecutarOperacionesA {
  
         objOp.mostrarArregloEnteros(x);
  
- 
+        System.out.println(objOp.);
     }
 }
