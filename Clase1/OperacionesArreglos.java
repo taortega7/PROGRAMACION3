@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Random;
  
 public class OperacionesArreglos {
  
@@ -8,11 +7,9 @@ public class OperacionesArreglos {
      */
     public int[] llenarArregloEnteros(int tam){
  
-        Random r = new Random();
- 
         int[] a = new int[tam];
         for(int i = 0; i < a.length; i++){
-            a[i] = r.nextInt() * 100 + 1;
+            a[i] = (int) (1 + Math.random() * (100-1) + 1);
         }
  
         return a;
@@ -27,4 +24,5 @@ public class OperacionesArreglos {
     }
  
 }
+ 
 

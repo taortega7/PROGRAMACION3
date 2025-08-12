@@ -1,0 +1,16 @@
+public class EjecutarOperacionesA {
+    public static void main(String[] args){
+ 
+        OperacionesArreglos objOp = new OperacionesArreglos();
+ 
+        //Llenar el arreglo
+ 
+        int[] x = objOp.llenarArregloEnteros(4);
+ 
+        //Mostrar el arreglo
+ 
+        objOp.mostrarArregloEnteros(x);
+ 
+ 
+    }
+}
